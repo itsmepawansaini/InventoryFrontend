@@ -11,7 +11,7 @@ import store from "./redux/rtk/app/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //Setting AXIOS and token
-axios.defaults.baseURL = "https://dashboardbackend-fija.onrender.com";
+axios.defaults.baseURL = "https://dashboardbackend-fija.onrender.com/";
 // axios.defaults.baseURL = process.env.REACT_APP_API;
 
 const accessToken = localStorage.getItem("access-token");
